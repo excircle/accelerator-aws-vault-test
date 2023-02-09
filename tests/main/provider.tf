@@ -14,13 +14,13 @@ terraform {
     organization = "hc-implementation-services"
 
     workspaces {
-      name = "accelerator-aws-vault"
+      name = "accelerator-aws-vault-test"
     }
   }
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "us-west-2"
 }
 
 provider "tls" {}
