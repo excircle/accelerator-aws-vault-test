@@ -228,3 +228,7 @@ This module supports both the Shamir and auto-unseal (via AWS KMS) seal mechanis
 In Vault >= 1.8.0, license files are stored on the Vault servers and their location is referenced in the configuration file. This module supports reading the license file from AWS Secrets Manager. Given it's ARN via the `vault_license_secret` variable, the module will retrieve it and store it on disk of each Vault node.
 
 > Note: If deploying an older version of Vault (< 1.8.0), the license file is uploaded after Vault is online, therefore the variable `vault_license_secret` can be left blank.
+
+# GitHub Actions
+
+Attempt: 1
